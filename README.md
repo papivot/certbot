@@ -44,3 +44,15 @@ sudo certbot delete
 `chain.pem`    : used for OCSP stapling in Nginx >=1.3.7.
 
 `cert.pem`     : will break many server configurations, and should not be used without reading further documentation (see link below).
+
+
+----
+- Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/navlab.io/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/navlab.io/privkey.pem
+   Your cert will expire on 2020-08-04. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
