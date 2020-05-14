@@ -35,6 +35,8 @@ To delete -
 ```
 sudo certbot delete
 ```
+---
+Certs are stored here - `/etc/letsencrypt/live/domain-name`
 
 
 `privkey.pem`  : the private key for your certificate.
@@ -55,4 +57,3 @@ sudo certbot delete
    version of this certificate in the future, simply run certbot
    again. To non-interactively renew *all* of your certificates, run
    "certbot renew"
- - If you like Certbot, please consider supporting our work by:
