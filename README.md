@@ -4,14 +4,10 @@
 
 uses - `~/.aws/credentials`
 
-```
-sudo pip install certbot_dns_route53==0.31.0
-```
-
-or
+Make sure python3 is the default python
 
 ```
-pip3 install certbot_dns_route53==0.31.0`
+sudo apt-get install python3-certbot-dns-route53
 ```
 
 To generate new certs - 
